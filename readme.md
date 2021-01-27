@@ -8,7 +8,8 @@ A bot for Mastodon that fetches data from the public CoinGecko API, made with No
 
 - Go to your Mastodon instance and create a new application under *Preferences -> Development*
 - Insert client_id, client_secret and access_token inside of `CoinGeckoBot.js`
-- Visit [CoinGecko's API Documentation](https://www.coingecko.com/en/api#explore-api) on how to use the API
+- Insert the API URL of your Mastodon instance
+- Visit [CoinGecko's API Documentation](https://www.coingecko.com/en/api#explore-api) on how to use the API. By default it fetches and posts the current Bitcoin price in USD every hour
 
 # Install
 

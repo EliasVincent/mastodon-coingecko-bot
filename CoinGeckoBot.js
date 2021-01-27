@@ -11,7 +11,7 @@ const Bot = new Mastodon({
   client_secret: "insert here",
   access_token: "insert here",
   timeout_ms: 60 * 1000,
-  api_url: "https://catspace.xyz/api/v1/",
+  api_url: "https://yourmastodoninstance.xyz/api/v1/",
 });
 
 let btcPrice = "";
