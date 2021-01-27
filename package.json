@@ -1,0 +1,24 @@
+{
+  "name": "mastodon-coingecko-bot",
+  "version": "0.0.2",
+  "description": "mastodon bot that posts CAT price",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mastodon",
+    "bot",
+    "cmc",
+    "api",
+    "crypto"
+  ],
+  "author": "EliasVincent",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mastodon-api": "^1.3.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1"
+  }
+}
